@@ -279,6 +279,84 @@
       },
       "last_updated": "1588999317",
       "meta_data": {}
+    },
+    {
+      "auth_type": "authToken",
+      "_id": "5ee98134c2881a0001d8f9dd",
+      "id": "",
+      "org_id": "5e9d9544a1dcd60001d0ed20",
+      "rate": 1000,
+      "per": 60,
+      "throttle_interval": -1,
+      "throttle_retry_limit": -1,
+      "quota_max": -1,
+      "quota_renewal_rate": 3600,
+      "access_rights": {
+        "769b26b1f73a45074517ff4de75824a1": {
+          "api_name": "CustomAuth",
+          "api_id": "769b26b1f73a45074517ff4de75824a1",
+          "versions": [
+            "Default"
+          ],
+          "allowed_urls": [],
+          "limit": null,
+          "allowance_scope": ""
+        }
+      },
+      "hmac_enabled": false,
+      "active": true,
+      "name": "CustomAuthAllowPolicy",
+      "is_inactive": false,
+      "date_created": "2020-06-17T02:34:28.285Z",
+      "tags": [],
+      "key_expires_in": 0,
+      "partitions": {
+        "quota": false,
+        "rate_limit": false,
+        "acl": false,
+        "per_api": false
+      },
+      "last_updated": "1592361268",
+      "meta_data": {}
+    },
+    {
+      "auth_type": "keyless",
+      "_id": "5ee9815dc2881a0001d8f9de",
+      "id": "",
+      "org_id": "5e9d9544a1dcd60001d0ed20",
+      "rate": 1000,
+      "per": 60,
+      "throttle_interval": -1,
+      "throttle_retry_limit": -1,
+      "quota_max": -1,
+      "quota_renewal_rate": 3600,
+      "access_rights": {
+        "15882af5aa884a894012d468cdcf6ed7": {
+          "api_name": "custom-auth-token",
+          "api_id": "15882af5aa884a894012d468cdcf6ed7",
+          "versions": [
+            "Default"
+          ],
+          "allowed_urls": [],
+          "limit": null,
+          "allowance_scope": ""
+        }
+      },
+      "hmac_enabled": false,
+      "active": true,
+      "name": "CustomAuthDisallowPolicy",
+      "is_inactive": false,
+      "date_created": "2020-06-17T02:35:09.918Z",
+      "tags": [],
+      "key_expires_in": 0,
+      "partitions": {
+        "quota": false,
+        "rate_limit": false,
+        "acl": false,
+        "per_api": false
+      },
+      "last_updated": "1592361309",
+      "meta_data": {}
     }
   ],
   "Pages": -1

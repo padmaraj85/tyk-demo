@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "47441dfa-69a6-4c47-afe6-5a3e3e0b4590",
-		"name": "Tyk Demo",
+		"_postman_id": "00312308-d584-4914-b0db-5db6436b71da",
+		"name": "Tyk Demo Custom Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -17,7 +17,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "bd7e1f22-3680-4f89-9ca3-4087e889ea96",
+										"id": "240683bb-f2b6-4084-a41e-2d36681b412f",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -115,7 +115,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "84923368-e448-4a4c-b34b-97a905e46866",
+										"id": "49cc25af-0b76-49e7-be79-71ce52915962",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -162,7 +162,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "0b1dec21-146f-4125-b81d-8313d0bbbb31",
+										"id": "297bfaf9-1f3b-4a72-a42d-f84ef1910492",
 										"exec": [
 											"pm.test(\"Status code is 403\", function () {",
 											"    pm.response.to.have.status(403);",
@@ -203,7 +203,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "0511586b-396e-441b-869a-f0a05ce635f4",
+										"id": "8403c42e-9ff6-4bfa-b39d-73310d859736",
 										"exec": [
 											"pm.test(\"5th server error response triggers circuit breaker\", function () {",
 											"    var circuitBreakerRequest = {",
@@ -262,7 +262,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "6bf2f11f-bd1e-4728-ae87-9e13f1e9d421",
+										"id": "0b0a081c-5d24-4eae-83c4-c82e262c0bda",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -308,7 +308,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "c5bbb502-12c9-4ad6-aff8-da16b20e2708",
+										"id": "140ff223-0c45-4416-a98e-bda2cd7d7728",
 										"exec": [
 											"pm.test(\"Status code is 504\", function () {",
 											"    pm.response.to.have.status(504);",
@@ -357,7 +357,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "1e28bb3e-08d5-4bb1-b9fe-feb041fe15cc",
+										"id": "06d37af1-e827-43d9-b260-f03d4d8d11e1",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -401,7 +401,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "905f35b8-e6d4-4dbb-9ac2-92ae685d54ea",
+										"id": "9f5e5469-8367-4060-80d6-f2e6d95e330e",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -442,7 +442,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "8f522a28-7226-481c-81a8-c0a168799ea8",
+										"id": "1a6c13a0-2e6b-4dd4-9a29-254826a38e4b",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -489,7 +489,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "44fbc060-6baf-4acd-b4f1-4d56f42e60a0",
+										"id": "f6240527-d701-45d1-9f0c-e699e01289db",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -536,7 +536,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "138af158-72a6-4e2e-8e2f-3bbc93237dff",
+										"id": "57c2c5d7-573a-4fce-bd00-455de821d61c",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -588,7 +588,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "f4bbd554-b792-43fe-8845-5c0a3180ba1a",
+										"id": "d52fb8d0-6ee4-461f-a25e-23ef35eea658",
 										"exec": [
 											"var cacheRequest = {",
 											"    url: 'http://localhost:8080/plugin-demo-api/uuid',",
@@ -655,7 +655,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "22cd7a49-318b-4bb3-8dfb-864d1b3657f8",
+										"id": "0283032a-e5da-46ac-bcda-7b785887263e",
 										"exec": [
 											"pm.test(\"Status code is 422\", function () {",
 											"    pm.response.to.have.status(422);",
@@ -700,7 +700,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "bcd24369-a412-4b10-84bb-340e586ac511",
+										"id": "1bb4112d-6d03-4c35-a307-b6c3064df33b",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -747,7 +747,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "adb5f443-8afa-487d-b7e6-d95ab57c0e08",
+										"id": "a7676ec3-8f80-4c8e-b9f8-1c15e85bcb33",
 										"exec": [
 											"pm.test(\"Status code is 400\", function () {",
 											"    pm.response.to.have.status(400);",
@@ -792,7 +792,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "50caea29-d4c2-4c8f-8c6b-4fde1305f342",
+										"id": "6563684b-e290-42f5-8286-7645d3d9753c",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -837,7 +837,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "e7c74988-3893-4639-8ade-5e41804396a9",
+										"id": "c790bc04-414b-4918-8ce0-3b179c47499a",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -878,7 +878,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "9d623292-47bb-4486-813f-7c1274a852dc",
+										"id": "d6d07181-921c-4ab8-b0cd-8848fcf02a05",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -914,7 +914,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "d09b4394-551f-47fa-b951-4d59aa235de1",
+										"id": "1a4e051f-a74d-4909-abcf-7239e89af49e",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -961,7 +961,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "084e470f-b110-4d6b-b312-c94dfa46ec1f",
+										"id": "93b2c972-ed6c-4f96-b048-15bb9a0fe596",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -1006,7 +1006,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "7c2302b6-a13f-4132-b082-bafc56564752",
+										"id": "7428ecd6-8bbb-442f-8c9b-8190730ea3d1",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -1048,7 +1048,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "37ef5cce-b486-4266-80fd-bd9c982806ec",
+										"id": "6a436d03-ec9f-48c1-af95-9fa167ec0f6e",
 										"exec": [
 											"pm.test(\"Status code is 403\", function () {",
 											"    pm.response.to.have.status(403);",
@@ -1094,7 +1094,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "65396c3f-087e-48bf-8397-7786b6f94c11",
+								"id": "a303034f-04ea-4ea1-a7b5-28496d1c7f07",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -1104,7 +1104,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f870fe1f-df18-4441-91df-0fef0850bc3e",
+								"id": "52d5ac24-2a9c-4f68-92f1-d6d658b4e350",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -1124,7 +1124,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "15e769b7-4219-4ef6-8810-f033079861ad",
+										"id": "3734f0c7-f1e2-42f4-918b-2951465075ad",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -1171,7 +1171,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "7ca771ca-edc7-4bdc-9fd5-297aced6cb3d",
+										"id": "f26a32f5-7f18-4e71-aad8-c81dadf09573",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -1223,7 +1223,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "15b88e97-b6ba-4d41-8fe5-621e5083dda8",
+										"id": "76f23637-aadd-4152-b9f8-ce7520ae0037",
 										"exec": [
 											"pm.test(\"Status code is 403\", function () {",
 											"    pm.response.to.have.status(403);",
@@ -1280,7 +1280,7 @@
 										{
 											"listen": "test",
 											"script": {
-												"id": "77ad7f91-528b-428a-8b26-81ab8e10e18c",
+												"id": "f6f64b92-92f1-4bd0-94f6-c9ce7e6d73e9",
 												"exec": [
 													"pm.test(\"Status code is 403\", function () {",
 													"    pm.response.to.have.status(403);",
@@ -1330,7 +1330,7 @@
 										{
 											"listen": "test",
 											"script": {
-												"id": "932b9aa4-5534-40fe-be48-2d15bb0a7de1",
+												"id": "e5294376-05f5-4998-be44-c38a5bbd256e",
 												"exec": [
 													"pm.test(\"Status code is 200\", function () {",
 													"    pm.response.to.have.status(200);",
@@ -1387,7 +1387,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "d77a576d-ebc0-4b73-951a-66f2d8c55664",
+														"id": "df3af984-be59-4d08-a008-b8bce6f27aec",
 														"exec": [
 															"pm.test(\"Status code is 401\", function () {",
 															"    pm.response.to.have.status(401);",
@@ -1433,7 +1433,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "1c4f50d7-1f44-46cd-94ec-b09377182aa8",
+														"id": "396d0e3b-d83a-49fd-80a7-e1d15dc83d7e",
 														"exec": [
 															"pm.test(\"Status code is 403\", function () {",
 															"    pm.response.to.have.status(403);",
@@ -1479,7 +1479,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "f372b9ae-ad2b-4708-b97b-8ee0d77448f9",
+														"id": "edfdd54e-91e6-4543-9c1d-3c6132d9fc6b",
 														"exec": [
 															"pm.test(\"Status code is 200\", function () {",
 															"    pm.response.to.have.status(200);",
@@ -1524,7 +1524,7 @@
 										{
 											"listen": "prerequest",
 											"script": {
-												"id": "fa420743-8071-43fb-8723-5f4b0e1cc246",
+												"id": "37398dc5-674c-4cb1-86ec-d61e1bec5c2d",
 												"type": "text/javascript",
 												"exec": [
 													""
@@ -1534,7 +1534,7 @@
 										{
 											"listen": "test",
 											"script": {
-												"id": "a86fc552-eca1-4f65-8c53-02497650394f",
+												"id": "e9aea759-4a75-44cd-9999-a8266256e522",
 												"type": "text/javascript",
 												"exec": [
 													""
@@ -1554,7 +1554,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "cdb56af0-d9da-4485-8cd7-fcf7b313d849",
+														"id": "1cd116f4-5182-456d-a083-43a450d0c77a",
 														"exec": [
 															"pm.test(\"Status code is 200\", function () {",
 															"    pm.response.to.have.status(200);",
@@ -1595,7 +1595,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "915a9928-2913-44c3-bdb5-2304618a5074",
+														"id": "e73487bb-c500-4d7d-9e0b-1081580e92df",
 														"exec": [
 															"pm.test(\"Status code is 200\", function () {",
 															"    pm.response.to.have.status(200);",
@@ -1637,7 +1637,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "79c99ac9-27e1-4eb3-a9b6-f85a3ae96e17",
+														"id": "72923c08-28ee-489a-863f-33f8ebb132b6",
 														"exec": [
 															"pm.test(\"Status code is 403\", function () {",
 															"    pm.response.to.have.status(403);",
@@ -1691,7 +1691,7 @@
 												{
 													"listen": "test",
 													"script": {
-														"id": "ce79fc00-d5fe-4086-9d86-4ae4a7e7e55c",
+														"id": "dc97a8c5-83c3-4425-82c9-36f9cdd8c33a",
 														"exec": [
 															"pm.test(\"Status code is 200\", function () {",
 															"    pm.response.to.have.status(200);",
@@ -1740,7 +1740,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "718c86da-e2e4-4ec6-8aff-e110019ca0cc",
+										"id": "5dd9287c-bb1d-4bb3-b2e3-5c786f91e781",
 										"exec": [
 											"var keyId = pm.variables.replaceIn('{{$randomUUID}}');",
 											"",
@@ -1820,7 +1820,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "23586ef8-1d1e-4837-9710-1a1e5762a1da",
+										"id": "e659e694-f9d7-4c45-b65c-9b67c7a6b82d",
 										"exec": [
 											"var keyId = pm.variables.replaceIn('{{$randomUUID}}');",
 											"",
@@ -1899,7 +1899,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "7747958b-f1cf-47d3-abc4-bb69f49a1a04",
+										"id": "5198d4e1-92c2-4312-96ad-c45a7ec4a693",
 										"exec": [
 											"var keyId = pm.variables.replaceIn('{{$randomUUID}}');",
 											"",
@@ -1980,7 +1980,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "251595bf-f76c-4246-a75e-d767ba852c0a",
+										"id": "ac27b39d-0b82-41b4-be82-c07d2a7d4fab",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -2037,7 +2037,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "bd415236-0729-45ed-9c9c-41bb66ce1a11",
+										"id": "655290f8-282d-4395-93be-cee236f71f08",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -2090,7 +2090,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "6541f72b-13cf-42d0-993a-bc3c53b3eb7f",
+										"id": "eca5e662-584e-4fd3-b0bf-8209d8f90645",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -2151,7 +2151,7 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "199f0adf-892d-40ce-85bd-50d0132269c2",
+										"id": "b6aebdea-cbe1-46ab-8b1a-74eca33c911b",
 										"exec": [
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
@@ -2270,7 +2270,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "921cf3ff-452e-4003-bb55-e480f52f175c",
+								"id": "58ec5ad3-6180-4763-9485-35d03b5a71b0",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -2316,7 +2316,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "084ea9b3-1ca6-41db-a3f0-0a6a4451bd85",
+								"id": "dfe1d170-806a-4ec9-9c37-49c786cdb5a5",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -2380,12 +2380,93 @@
 			"protocolProfileBehavior": {}
 		},
 		{
+			"name": "CustomAuth",
+			"item": [
+				{
+					"name": "GetToken",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/custom-auth-token/generate-token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"custom-auth-token",
+								"generate-token"
+							]
+						},
+						"description": "Get a random token to be used for custom authentication. Its virtual endpoint that return randowm access_token."
+					},
+					"response": []
+				},
+				{
+					"name": "ValidatePublicToken",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/custom-auth-token/validate-public",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"custom-auth-token",
+								"validate-public"
+							]
+						},
+						"description": "A virtual endpoint that returns scope as PUBLIC. This scope will decide the policy to be set in the pre hook."
+					},
+					"response": []
+				},
+				{
+					"name": "ValidatePrivateToken",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/custom-auth-token/validate-private",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"custom-auth-token",
+								"validate-private"
+							]
+						},
+						"description": "A virtual endpoint that returns scope as PRIVATE. This scope will decide the policy to be set in the pre hook."
+					},
+					"response": []
+				},
+				{
+					"name": "AccessCustomAuthAPI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "Pass any value for Authorization header.\n1. To simulate positive flow set the auth_path to /custom-auth-token/validate-public in config_data section for customauth API.\n2. To simulate negative flow set the auth_path to /custom-auth-token/validate-private in config_data section for customauth API."
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
 			"name": "Basic Test Request",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
-						"id": "a6176da1-f05d-4965-992a-afc7bf551350",
+						"id": "577a0bfe-5bdf-4625-836d-805d38bce0c7",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
